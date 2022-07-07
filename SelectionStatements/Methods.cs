@@ -1,11 +1,10 @@
 ﻿using System;
-
 namespace SelectionStatements
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+	public class Methods
+	{
+		public static void Exercise1()
+		{
 			var rand = new Random();
 			int favNum = rand.Next(1, 100);
 			Console.WriteLine("Guess my favorite number");
@@ -27,5 +26,6 @@ namespace SelectionStatements
 				Console.WriteLine("You read my mind!");
 			}
 		}
-    }
+	}
 }
+
